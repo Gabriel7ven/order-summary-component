@@ -35,14 +35,14 @@ body {
     width: 350px;
     height: 500px;
     background-color: var(--very-pale-blue);
-    border-radius: 10px;
+    border-radius: 15px;
     padding-bottom: 25px;
     z-index: 1;
 }
 
 .hero {
     width: 100%;
-    border-radius: 10px 10px 0 0;
+    border-radius: 15px 15px 0 0;
 }
 
 main {
@@ -118,5 +118,6 @@ p {
 
 .bg-desktop {
     position: absolute;
-    top: 0;
+    top: -100px;
+    transform: scale(1.1);
 }
